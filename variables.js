@@ -76,7 +76,7 @@ player.resetTime = player.resetTime ?? new Decimal(0)
 
 if (!player.upgrade) player.upgrade = {}
 
-if (!player.points) player.points = new Decimal(0)
+if (!player.points) player.points = new Decimal(10000000000000000000000000000000000000000000000000000000000000)
 if (!player.prestigePoints) player.prestigePoints = new Decimal(0)
 if (!player.timePoints) player.timePoints = new Decimal(0)
 if (!player.reinPoints) player.reinPoints = new Decimal(0)
